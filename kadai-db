@@ -1,0 +1,23 @@
+users
+ ・name:string
+ ・profile_image_id:string
+ ・email:string
+ ・password_digest:string
+ ・admin:boolean
+
+ users has many questions
+
+questions
+  ・title:string
+  ・content:text
+  ・is_solved:boolean
+  ・user_id:integer
+
+  question has many answers
+
+
+answers
+  ・content
+  ・questions_id
+  ・user_id
+
