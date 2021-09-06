@@ -1,3 +1,4 @@
+設計
 users
  ・name:string
  ・profile_image_id:string
@@ -20,4 +21,5 @@ answers
   ・content
   ・questions_id
   ・user_id
+
 
